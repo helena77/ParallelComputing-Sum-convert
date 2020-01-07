@@ -3,8 +3,8 @@ The sequential program is a kind of prefix sum, except that each value in the ar
 
 The project shold be able to substantially speed up the program by using two threads running at the same time
 
-ThreadGroup.h -- a class that uses pthreads to create threads and allows you to wait for all of them to finish
-hw1_setup.cpp -- the sequential version of the program
-hw1.cpp -- performs the same task as hw1_setup.cpp, but using a parallel algorithm using two threads to do so.
-example.cpp -- example of how to use the ThreadGroup class
-Makefile -- in order to build it all
+- ThreadGroup.h -- a class that uses pthreads to create threads and allows you to wait for all of them to finish
+- hw1_setup.cpp -- the sequential version of the program
+- hw1.cpp -- performs the same task as hw1_setup.cpp, but using a parallel algorithm using two threads to do so.
+- example.cpp -- example of how to use the ThreadGroup class
+- Makefile -- in order to build it all
